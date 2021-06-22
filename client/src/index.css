@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  
+}
+@media (min-width: 576px) {  }
+
+
+@media (min-width: 768px) {  }
+
+
+@media (min-width: 992px) {  }
+
+
+@media (min-width: 1200px) {  }
+
+
+@media (min-width: 1400px) {  }
+
+.conta{
+  width:50rem;
+  height: 32rem;
+  margin:auto;
+  margin-top: 3rem;
+  padding:auto;
+  align-items: center;
+  justify-content: center;
+  background: url('./pics/nice.jpg')
+}
+.contee{
+  height: 44.9rem;
+ display: flex;
+ background: url('./pics/black.jpg') no-repeat center center fixed; 
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+.aboute{
+  height: 44.9rem;
+ display: flex;
+ background: url('./pics/black.jpg') no-repeat center center fixed; 
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+.abouta{
+  width: 1000px;
+  display: flex;
+  height: 550px;
+  margin-top: 70px;
+  background-image: url('./pics/home.jpg')
+}
+.kee{
+ height: 44.9rem;
+ background: url('./pics/black.jpg') no-repeat center center fixed; 
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+.heroe{
+  background: url('./pics/white6.jpg'); 
+}
+.goku{
+  margin-left: 30px;
+}
+.home{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top:15.5rem;
+  margin:auto;
+}
+.abc{
+  height: 44.9rem;
+  display: flex;
+  background: url('./pics/home1.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.errore{
+  height: 44.9rem;
+  display: flex;
+  
+  background: url('./pics/black.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.notfound{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top:16.5rem;
+  margin:auto;
+  color:white; 
+}
+.datas{
+  width:550px;
+  height:90px;
+  margin:auto;
+}
+.contact2{
+  margin-top: 10rem;
+}
+.contact-form{
+ width:500px;
+}
