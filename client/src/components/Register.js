@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
 import register from '../pics/register.jpg'
-
+// import {FaUser} from "@react-icons/fa/FaUser";
 import { NavLink } from 'react-router-dom';
 import { useHistory } from 'react-router';
-
 
 const Register = () => {
    const history = useHistory()
@@ -50,15 +49,14 @@ const Register = () => {
         <div className='contee'>
            <div className='container conta'>
                <div className="row">
-               <div className='col-md-6 col-lg-6 col-8 mx-auto mt-5 goku'>
+               <div className='col-lg-6 col-md-6  col-8 mx-auto mt-5 goku'>
                        <h2 className='mb-3 mx-5'>Sign up</h2>
                               <form method='POST' className='mx-5'>
 
                               
                                 <div className='mb-2'>
                                 
-                                 
-                                <input type="text" placeholder='your name' className="form-control w-50" name='name' value={user.name} onChange={handleInput} /> 
+                                <input type="text" placeholder='your name' className="form-control w-50" name='name' value={user.name} onChange={handleInput} />
                                 
                             </div>
                             <div className='mb-2'>
