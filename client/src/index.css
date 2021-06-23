@@ -58,6 +58,7 @@
 }
 .kee{
  height: 44.9rem;
+ width:96rem;
  background: url('./pics/black.jpg') no-repeat center center fixed; 
  -webkit-background-size: cover;
  -moz-background-size: cover;
@@ -65,7 +66,11 @@
  background-size: cover;
 }
 .heroe{
-  background: url('./pics/white6.jpg'); 
+  background:url('./pics/white6.jpg');
+}
+.datases{ 
+  height:5.5rem;
+  display: flex;
 }
 .goku{
   margin-left: 30px;
@@ -104,11 +109,7 @@
   margin:auto;
   color:white; 
 }
-.datas{
-  width:550px;
-  height:90px;
-  margin:auto;
-}
+
 .contact2{
   margin-top: 10rem;
 }
