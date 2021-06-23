@@ -76,8 +76,8 @@ const Contact = () => {
         <div className='kee'>
            <div className="container-fluid koo">
                <div className="row">
-                   <div className="col-lg-10 col-md-10 col-10 mx-auto justify-content-between d-flex datas">
-                              <div className='d-flex justify-content-start text-center mx-2 heroe'>
+                   <div className="col-lg-10 col-md-10 col-10 mx-auto datas" style={{display:'inline-flex'}}>
+                              <div className='d-flex justify-content-start text-center mx-5 heroe'>
                                   <img src={phone} alt="hi" className='img-fluid' style={{width:'90px'}}/>
                               <div className='mx-3 mt-3'>
                                   Phone Number
@@ -85,7 +85,7 @@ const Contact = () => {
                                   8332942540
                               </div>
                               </div></div>
-                              <div className='d-flex justify-content-start text-center mx-2 heroe'>
+                              <div className='d-flex justify-content-start text-center mx-5 heroe'>
                                   <img src={mail} alt='s' className='img-thumbnail' style={{width:'90px'}}/>
                               <div className='mx-2 mt-3'>
                                   Email
@@ -93,7 +93,7 @@ const Contact = () => {
                                   suneelpradeeptheone@gmail.com
                               </div>
                               </div></div>
-                              <div className='d-flex justify-content-start text-center mx-2 heroe'>
+                              <div className='d-flex justify-content-start text-center mx-5 heroe'>
                                   <img src={address} alt="hi" className='img-fluid' style={{width:'75px'}}/>
                               <div className='mx-2 mt-3'>
                                   Address
