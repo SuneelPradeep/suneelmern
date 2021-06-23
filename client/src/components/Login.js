@@ -47,7 +47,7 @@ const Login = () => {
         <div className='contee'>
         <div className='container conta'>
             <div className="row">
-            <div className='col-md-5 col-lg-5 col-8 mx-auto mt-5 my-auto'>
+            <div className='col-lg-5 col-md-5 col-8 mx-auto mt-5 my-auto'>
             <figure>
                          <img src={login} alt="l" className='img-fluid mt-3' style={{width:'350px'}}/>
                          </figure>
