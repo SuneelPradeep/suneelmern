@@ -73,12 +73,7 @@ const About = () => {
                             </div>
 
                        </div>
-                       <div className="col-md-2 col-sm-2">
-                           {/* <h6>Edit Profile</h6> */}
-                           <button type='button' className='btn btn-dark mt-3' name='btnAddMore' 
-                           value='Edit Profile' 
-                            style={{borderBox:'none'}}> Edit Profile</button>
-                       </div>
+                      
 
 
                      <div className="col-md-4 mt-5 col-sm-4">
