@@ -36,7 +36,6 @@ const Contact = () => {
                 history.push('/login')        
                 }
     }  
-
      useEffect(() => {   
        callContact()
      }, [])
@@ -76,8 +75,8 @@ const Contact = () => {
         <div className='kee'>
            <div className="container-fluid koo">
                <div className="row">
-                   <div className="col-lg-10 col-md-10 col-10 mx-auto datas" style={{display:'inline-flex'}}>
-                              <div className='d-flex justify-content-start text-center mx-5 heroe'>
+                   <div className="col-lg-11 col-md-11 col-10 mx-auto datases" style={{display:'inline-flex'}}>
+                              <div className='col-md-4 col-lg-4 d-flex justify-content-start text-center heroe'  style={{width:'25rem'}}>
                                   <img src={phone} alt="hi" className='img-fluid' style={{width:'90px'}}/>
                               <div className='mx-3 mt-3'>
                                   Phone Number
@@ -85,7 +84,7 @@ const Contact = () => {
                                   8332942540
                               </div>
                               </div></div>
-                              <div className='d-flex justify-content-start text-center mx-5 heroe'>
+                              <div className='col-md-4 col-lg-4 d-flex justify-content-start text-center mx-5 heroe' style={{width:'30rem'}}>
                                   <img src={mail} alt='s' className='img-thumbnail' style={{width:'90px'}}/>
                               <div className='mx-2 mt-3'>
                                   Email
@@ -93,7 +92,7 @@ const Contact = () => {
                                   suneelpradeeptheone@gmail.com
                               </div>
                               </div></div>
-                              <div className='d-flex justify-content-start text-center mx-5 heroe'>
+                              <div className='col-md-4 col-lg-4 d-flex justify-content-start text-center heroe' style={{width:'25rem'}}>
                                   <img src={address} alt="hi" className='img-fluid' style={{width:'75px'}}/>
                               <div className='mx-2 mt-3'>
                                   Address
