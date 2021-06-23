@@ -106,20 +106,20 @@ const Contact = () => {
            </div>
            <div className="container contact2 heroe" >
                <div className="row">
-                   <div className="col-lg-4 col-md-4 col-10 mx-auto">
+                   <div className="col-lg-6 col-md-6 col-10 mx-auto">
                        <div className="contact-form">
                                 <h3 className='my-3'> Get in touch</h3>
                                 <hr className='w-50'/>
-                                <form className='mt-3' method='POST' style={{width:'600px'}}>
+                                <form className='mt-3' method='POST' style={{width:'38rem'}}>
                                     <div className="d-flex justify-content-between align-items-center mx-auto">
                                 <input type='text' value={userdata.name}  name='name' onChange={handleInputs}  placeholder='your name' required='true' className='form-control mx-2 ' style={{width:'150px'}} />
                                 <input type='email' value={userdata.email} name='email' onChange={handleInputs} placeholder='your email' required='true' className='form-control mx-2' style={{width:'500px'}}/>
                                 <input type='number' value={userdata.mobile} name='mobile' onChange={handleInputs}  placeholder='mobile no.' required='true' className='form-control mx-2 ' style={{width:'140px'}}/>
                                     </div>
                                     <div className='form-floating mt-3'>
-                                    <textarea value={userdata.message} onChange={handleInputs} name='message'  placeholder='Write your message' className='form-control' style={{height:'220px'}} />
+                                    <textarea value={userdata.message} onChange={handleInputs} name='message'  placeholder='Write your message' className='form-control mb-3' style={{height:'220px'}} />
                                     </div>
-                                    <button type="submit" onClick={SubmitNewData} className="btn btn-primary btn-small mt-2 mb-4 justify-content-start"> Submit </button>
+                                    <button type="submit" onClick={SubmitNewData} className="btn btn-primary btn-small mt-2 mb-3 justify-content-start"> Submit </button>
                                 </form>
                        </div>
                    </div>
